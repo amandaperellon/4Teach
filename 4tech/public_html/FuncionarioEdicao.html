@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/index.css">
+<body>
+
+<!-- NAV1 -->
+<div class="icon-bar">
+  <a class="active" href=""><i class="fa fa-user"></i></a> 
+  <a href=""><i class="fa fa-search"></i></a> 
+  <a href=""><i class="fa fa-beer"></i></a> 
+  <a href="Relatorio.html"><i class="fa fa-paper-plane"></i></a> 
+</div>
+
+<!-- NAV2 -->
+<div class="icon-bar2">
+  <a href="FuncionarioCadastro.html"><i class="fa fa-address-card"></i></a> 
+  <a href="FuncionarioEdicao.html"><i class="fa fa-edit"></i></a> 
+  <a href="FuncionarioPesquisa.html"><i class="fa fa-search"></i></a> 
+  <a href="FuncionarioExcluir.html"><i class="fa fa-trash"></i></a> 
+</div>
+  
+<!-- BUTTON X -->
+<div class="btn-group">
+  <button class="button">X</button>
+</div>
+
+<!-- LOGO -->
+<div class="logo">
+ <img src="img/logo.JPG">
+</div>
+<!-- FORM -->
+<div class="formulario">
+    <h1>Edi&#231;&#227;o de Funcion&#225;rio</h1> 
+    <br>
+    <label for="nome_id"> Nome: </label>
+    <input type="text" name="nome" id="nome_id" required="required"><br>
+ <br>
+ <br>
+    <label for="codigo_id"> Codigo: </label>
+    <input type="text" name="codigo" id="codigo_id" required="required"><br>
+ <br>
+ <br>
+    <label for="cargo_id"> Cargo: </label>
+    <select name="cargo" id="cargo_id" required="required">
+    <option value="">Selecione</option>
+    <option value="Fundamental">Gerente</option>
+    <option value="Medio">Caixa</option>
+    <option value="Superior">Gar&#231;om</option>              
+    </select> 
+ <br>
+ <br>
+ <br>
+    <label for="data_id" > Data de Contrata&#231;&#227;o </label>
+    <input type="date" name="data" id="data_id" required="required"><br>
+    <br> 
+    <br> 
+    <label>Enviar arquivo de foto</label>
+    <input type="file">
+    <br>
+    <br>
+    <input type="submit" id="botao_id" value="Salvar">
+    <input type="reset" value="Cancelar">
+</div>
+      
+</body>
+</html> 

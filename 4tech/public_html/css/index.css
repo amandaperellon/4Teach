@@ -1,0 +1,85 @@
+body {margin:0}
+
+/* NAV */
+.icon-bar {
+    width: 10%;
+    background-color: #363636;
+    float: left;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 43%;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #B22222; /* red */
+}
+
+.icon-bar2 {
+    width: 10%;
+    background-color: #555;
+    float: right;
+    margin-right: 80%;
+}
+
+.icon-bar2 a {
+    display: block;
+    text-align: center;
+    padding: 43%;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar2 a:hover {
+    background-color: #000;
+}
+
+/* BUTTON */
+
+.btn-group .button {
+    background-color: #B22222; /* red */
+    border: none;
+    color: white;
+    padding: 1% 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+    top: 0%;
+    right: 0;
+    position: absolute;
+}
+
+.btn-group .button:hover {
+    background-color: #000;
+}
+
+/* FORM */
+
+.formulario, .relatorio{
+    position: absolute;
+    top: 5%;
+    left: 30%;
+}
+
+/* LOGO */
+
+.logo{
+    position: absolute;
+    top: 71%;
+    left: 83%;
+}
+
+
